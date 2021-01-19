@@ -51,6 +51,7 @@ The end product is expected to ship with following features
 #### **Blakc** follows layered microservices architecture. This not only makes it easier to develop resillient & scalable app, but will also allow individual controbutors to develop delegated task parallely, reducing time to ship and faster development.
 ### Each latyer in the architecture can easily be scaled horizontally, making it easy to avoid any bottleneck.
 <br>
+<img src="./chat/chat.svg">
 
 # Components
 Each component may have one or more microservices. Each microservice will have pre-determined controlled & only therequired access to other resources (DB, S3, peer services, etc.)
