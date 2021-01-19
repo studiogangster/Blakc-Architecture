@@ -47,9 +47,8 @@ The end product is expected to ship with following features
 
 # Architecture
 
-### `Blakc` follows layered microservices architecture. This not only makes it easier to develop resillient & scalable app, but will also allow individual controbutors to develop delegated task parallely, reducing time to ship and faster development.
+### **Blakc** follows layered microservices architecture. This not only makes it easier to develop resillient & scalable app, but will also allow individual controbutors to develop delegated task parallely, reducing time to ship and faster development.
 ### Each latyer in the architecture can easily be scaled horizontally, making it easy to avoid any bottleneck.
-
 <br>
 
 # Components
