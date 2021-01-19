@@ -1,4 +1,4 @@
-# Blakc's Technical Specification Documentation
+# Blakc: Technical Specification Documentation
 
 # Overview
 
