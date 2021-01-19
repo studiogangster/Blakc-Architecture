@@ -1,5 +1,5 @@
 * Overview
-* Feature
+* Features
 * Technology Stack
   * Database
   * Message Broker
@@ -11,6 +11,8 @@
   * Messaging Service
   * Management Service
   * Storage Service
+  * Web App
+
 * Development lifecycle
   * Bootstrap
   * MVP

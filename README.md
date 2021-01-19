@@ -36,10 +36,14 @@ The end product is expected to ship with following features
 * Database: MongoDB
 * Message Broker: Kafka
 * Cache: Redis
-* Storage: minio for production
-```Note:
-The techstack is selected while keeping in mind, not to have any explicit dependency on cloud / infrastructure vendor, so that deployment or migration can be done without any hassle.  
-```
+* Storage: minio
+* Programming Languages: NodeJS & GoLang
+
+
+### Note:
+#### The techstack is selected while keeping in mind, not to have any explicit dependency on cloud / infrastructure vendor, so that deployment or migration can be done without any hassle.  
+
+<br>
 
 # Architecture
 
@@ -56,11 +60,31 @@ Each component may have one or more microservices. Each microservice will have p
 * Messaging Service
 * Management Service
 * Storage Service
-```
-Note: Each component's individual achitecture & functionality is described briefly in later section. 
-```
+* Web App
 
+### Note
+#### Each component's individual achitecture & functionality is described in detail, in the later section. 
+<br>
 
+# Development lifecycle
+## Phase I: Bootstraping
+### Tasks:
+* Settigng up code-repositories
+* Setting up the development environment
+* Preparing dev. infrastructure (DB, minio, Kafka, etc.)
+* Project Structuring
 
+### Outcome: 
+* Setting up of basic infrastructure with isolated Dev, QC, &  Production env.
+* Getting familiar with tech., libraries & frameworks that coucould be new to developer.
 
+### Estimated Time: 3 - 4 days
 
+## Phase 2: MVP
+### Tasks:
+* Create a test project with a quic POC for each microservice & webapp, having working functionality for atleast:
+    * Frontend to dummy API services 
+    * Microservices to DB, S3, Kafka, etc.
+    * Getting used to with the tech. stack
+
+### Estimated Time: 2 days
