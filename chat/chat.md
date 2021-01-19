@@ -18,7 +18,7 @@ Websocket server will only broadcast new messages ingested after the client's co
 <br>
 
 ### Chat Service Architecture:
-<img src="./chat.svg">
+<img src="https://github.com/studiogangster/Blakc-Architecture/blob/main/chat/chat.svg">
 <br>
 <br>
 ## Relay Service (Websocket Server)
@@ -83,7 +83,7 @@ WebSocket server will transform the recieved message by adding few more required
 2. ts: serverside Timestamp
 
 ```
-
+Sample message after transformation:
 
 {
     "channel_id": "", // team_id
@@ -94,6 +94,7 @@ WebSocket server will transform the recieved message by adding few more required
     "from": "" //Sender's userId of the client connected via websocket
 }
 ```
+Transformed message is pushed to Message Broker (Kafka)
 
 
 ### Team:

@@ -29,7 +29,7 @@ Authentication µService exposes a set of API endpoints that provides below func
 
 
 ### Authentication Flow:
-<img src="./authentication.svg">
+<img src="https://github.com/studiogangster/Blakc-Architecture/blob/main/chat/authentication.svg">
 
 
 ### Features:
