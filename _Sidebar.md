@@ -12,7 +12,10 @@
   * Management Service
   * Storage Service
   * Web App
-
+* Guidelines
+    * API Design Guidelines
+    * Coding Guidelines
+    * Security Guidelines
 * Development lifecycle
   * Bootstrap (No release)
   * MVP (No release)
