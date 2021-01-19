@@ -1,4 +1,4 @@
-# Blakc-Architecture
+# Blakc's Technical Specification Documentation
 
 # Overview
 
