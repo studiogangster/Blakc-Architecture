@@ -3,7 +3,7 @@
 # Overview
 
 # Features
-The end product is expected to ship with below features
+The end product is expected to ship with following features
 
 ### Authentication
 - [x] Sign Up
@@ -48,6 +48,17 @@ Each latyer in the architecture can easily be scaled horizontally, making it eas
 ```
 
 # Components
+Each component may have one or more microservices. Each microservice will have pre-determined controlled & only therequired access to other resources (DB, S3, peer services, etc.)
+
+### Below is the list of major components:
+* Authentication Service
+* Messaging Service
+* Management Service
+* Storage Service
+```
+Note: Each component's individual achitecture & functionality is described briefly in later section. 
+```
+
 
 
 
