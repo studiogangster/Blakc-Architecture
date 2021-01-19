@@ -14,8 +14,10 @@
   * Web App
 
 * Development lifecycle
-  * Bootstrap
-  * MVP
+  * Bootstrap (No release)
+  * MVP (No release)
   * Version 1
   * Version 2
   * Version 3
+  * Version 4
+  * Version 5 (Stable Build)

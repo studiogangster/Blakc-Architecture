@@ -42,14 +42,14 @@ The end product is expected to ship with following features
 
 
 ### Note:
-#### The techstack is selected while keeping in mind, not to have any explicit dependency on cloud / infrastructure vendor, so that deployment or migration can be done without any hassle.  
+#### The techstack was finalized, keeping in mind to not to have any explicit dependency on a particular cloud / infrastructure vendor, so as to make deployment / migration hassle free in near future.   
 
 <br>
 
 # Architecture
 
 #### **Blakc** follows layered microservices architecture. This not only makes it easier to develop resillient & scalable app, but will also allow individual controbutors to develop delegated task parallely, reducing time to ship and faster development.
-### Each latyer in the architecture can easily be scaled horizontally, making it easy to avoid any bottleneck.
+### Each individual layer can be easily scaled horizontally, making it easy to avoid any bottleneck.
 <br>
 <img src="./chat/chat.png">
 
@@ -68,6 +68,15 @@ Each component may have one or more microservices. Each microservice will have p
 <br>
 
 # Development lifecycle
+
+* Bootstrap (No release)
+* MVP (No release)
+* Version 1
+* Version 2
+* Version 3
+* Version 4
+* Version 5 (Stable Build)
+
 ## Phase I: Bootstraping
 ### Tasks:
 * Settigng up code-repositories
@@ -263,7 +272,7 @@ Each component may have one or more microservices. Each microservice will have p
 
 
 
-## Version 4: Stable Build
+## Version 5: Stable Build
 
 ### Tasks: 
 * Sanity Checks
