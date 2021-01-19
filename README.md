@@ -133,7 +133,7 @@ Each component may have one or more microservices. Each microservice will have p
 
 
 
-## Version 2: Working IM app, with limited features
+## Version 2: Enhanced features & bug fixes
 
 ### Tasks:
 * `Team Management µService` with remaining functionality. 
@@ -172,4 +172,143 @@ Each component may have one or more microservices. Each microservice will have p
 ### Estimated Time: 7 days
 
 ### Release: Version 0.2 will be released with few enhanced features, & bug fixes for QA.
+
+
+## Version 3: Enhanced features, performance improvement & bug fixes
+
+### Tasks: 
+* `Realtime IM Service`:
+    * Integration with different message types
+    * S3 / minio API integration for providing pre-signed URL
+    * Implement & use Redis for frequently used data from MongoDB
+    * REST API for retrieving older messages 
+    * Admin management
+* `Web App`: 
+    * UI Enhancement with new Screen for new features
+    * Chat: DM, & Group Messaging over websocket
+    * Chat: Upload, download & preview media attachments
+
+### Released Features:
+### Authentication
+- [x] Sign Up
+- [x] Login
+
+### Team Management
+- [x] Create Team
+- [x] Delete Team
+- [x] Modify Team Details
+- [x] Add Team Member
+- [x] Remove Team Member
+- [*] Add admin
+- [*] Remove admin
+- [*] Change team owner (Transfer ownership)
+- [*] Deactivate Team (Disable messaging)
+
+### Realtime Instant Messaging
+- [x] Send text message in team channel (GM: Group Message)
+- [*] Send media content in team channel (GM: Group Message)
+- [x] Send text-message directly to a team member (DM: Direct Message)
+- [*] Send media-content directly to a team member (DM: Direct Message)
+- [*] Retrieve Chat history from team channel
+- [*] Retrieve Chat history from DM
+- [ ] Send voice message (explicit audio based media-content)
+- [ ] Search functionality for Chat messages
+
+### Estimated Time: 7 days
+
+### Release: Version 0.3 will be released with few enhanced features, & bug fixes for QA.
+
+
+## Version 4: Major change: Record & send voice messages with performance impr. & bug fixes
+
+### Tasks: 
+* `Realtime IM Service`:
+    * Chat caching engine: Archive chat from MongoDB to s3 bucket
+    * REST API: Retrieve chat from s3 & fallback to MongoDB
+    * Purge duplicate chat history from DB
+* `Web App`: 
+    * Implement: record & send voice messages
+    * Preview / Play recieved recorded messages
+    * Integrate UI designs & screens
+
+### Released Features:
+### Authentication
+- [x] Sign Up
+- [x] Login
+
+### Team Management
+- [x] Create Team
+- [x] Delete Team
+- [x] Modify Team Details
+- [x] Add Team Member
+- [x] Remove Team Member
+- [*] Add admin
+- [*] Remove admin
+- [*] Change team owner (Transfer ownership)
+- [*] Deactivate Team (Disable messaging)
+
+### Realtime Instant Messaging
+- [x] Send text message in team channel (GM: Group Message)
+- [*] Send media content in team channel (GM: Group Message)
+- [x] Send text-message directly to a team member (DM: Direct Message)
+- [*] Send media-content directly to a team member (DM: Direct Message)
+- [*] Retrieve Chat history from team channel
+- [*] Retrieve Chat history from DM
+- [*] Send voice message (explicit audio based media-content)
+- [*] Search functionality for Chat messages
+
+### Estimated Time: 7 days
+
+### Release: Version 0.4 will be released with few enhanced features, & bug fixes for QA.
+
+
+
+## Version 4: Stable Build
+
+### Tasks: 
+* Sanity Checks
+* Exception Handling
+* Handling & dealing with edge cases 
+    * Web socket: disconnectin
+    * Web socket: retry mechanism
+    * Improve UI
+    * Bug Fixes
+    * Performance improvement
+
+### Released Features:
+### Authentication
+- [x] Sign Up
+- [x] Login
+
+### Team Management
+- [x] Create Team
+- [x] Delete Team
+- [x] Modify Team Details
+- [x] Add Team Member
+- [x] Remove Team Member
+- [*] Add admin
+- [*] Remove admin
+- [*] Change team owner (Transfer ownership)
+- [*] Deactivate Team (Disable messaging)
+
+### Realtime Instant Messaging
+- [x] Send text message in team channel (GM: Group Message)
+- [*] Send media content in team channel (GM: Group Message)
+- [x] Send text-message directly to a team member (DM: Direct Message)
+- [*] Send media-content directly to a team member (DM: Direct Message)
+- [*] Retrieve Chat history from team channel
+- [*] Retrieve Chat history from DM
+- [*] Send voice message (explicit audio based media-content)
+- [ ] Search functionality for Chat messages
+
+### Estimated Time: 5 days
+
+### Release: Stable & tagged release with all the required features 
+
+#### Note:
+Seach feature is left for the next phase. It will be integrated with MongoDB backed by Elastic Search.
+
+
+
+
 
