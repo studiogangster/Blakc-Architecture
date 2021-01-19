@@ -35,10 +35,16 @@ The end product is expected to ship with following features
 # Technology Stack
 * Database: MongoDB
 * Message Broker: Kafka
+* oAuth & SSO: Firebase
 * Cache: Redis
 * Storage: minio
-* Programming Languages: NodeJS & GoLang (Backend's µServices)
-* Webapp: Angular / React (Depends on developer's comfort level)
+* Programming Languages:
+    * Backend µServices: NodeJS & GoLang
+    * Webapp: Angular / React
+* Packaging & Bundling:
+    * Docker image (µServices)
+    * S3 (Host Angular / React)
+
 
 
 ### Note:
@@ -81,6 +87,7 @@ Each component may have one or more microservices. Each microservice will have p
 ### Tasks:
 * Settigng up code-repositories
 * Setting up the development environment
+* Setting up configuration (tokens, keys, firebase, s3, etc.)
 * Preparing dev. infrastructure (DB, minio, Kafka, etc.)
 * Project Structuring
 
