@@ -1,0 +1,23 @@
+# Table of contents
+
+* [Overview](README.md)
+* [Storyboard](storyboard.md)
+* [Technology Stack](tech-stack.md)
+* [Architecture](components/README.md)
+  * [Authentication Service](components/authentication-service.md)
+  * [Team Management Service](components/management-service.md)
+  * [Messaging Service](components/messaging-service.md)
+  * [Storage Service](components/storage-service.md)
+  * [Web App](components/web-app.md)
+* [Implementation Guidelines](guidelines.md)
+* [Development lifecycle](development-lifecycle/README.md)
+  * [Phase I: Bootstrap](development-lifecycle/bootstrap.md)
+  * [Phase II: MVP](development-lifecycle/mvp.md)
+  * [Phase III: Version 1](development-lifecycle/version-1.md)
+  * [Phase IV: Version 2](development-lifecycle/version-2.md)
+  * [Phase V: Version 3](development-lifecycle/version-3.md)
+  * [Phase VI: Version 4](development-lifecycle/version-4.md)
+  * [Phase VII: Version 5](development-lifecycle/version-5.md)
+* [Deployment Plan](deployment-plan.md)
+* [FAQs](faqs.md)
+
